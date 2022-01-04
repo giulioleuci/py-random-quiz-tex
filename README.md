@@ -4,7 +4,7 @@
 
 PyQuiz è un generatore di test in LaTeX a risposta multipla randomizzati, con correzione e reporting automatici.
 
-NB: lo script è stato testato UNICAMENTE su Ubuntu 20.04 munito della distribuzione Python Anaconda.
+NB: lo script è stato testato UNICAMENTE su Ubuntu 20.04 munito della distribuzione Python Anaconda. Inoltre l'inglese usato nello script è decisamente MACCHERONICO: leggere a proprio rischio e pericolo.
 
 Per poter essere utilizzato il quiz da somministrare deve essere contenuto in un file in formato Excel (.xlsx) così strutturato:
 - Primo foglio.
@@ -22,9 +22,9 @@ Per poter essere utilizzato il quiz da somministrare deve essere contenuto in un
 	- quarta riga: distrattore
 	- quinta riga: distrattore
 
-Attenzione! A volte nella sintassi LaTeX è necessario aggiungere un'ulteriore \, controllare manualmente i file .tex qualora il risultato non fosse corretto o si generassero errori durante la compilazione dei file .tex.
+Attenzione! A volte nella sintassi LaTeX è necessario aggiungere un'ulteriore \\, controllare manualmente i file .tex qualora il risultato non fosse corretto o si generassero errori durante la compilazione dei file .tex.
 
-I parametri che lo scrip accetta in ingresso si ottengono col comando "pyquiz.py -h":
+I parametri che lo scrip accetta in ingresso si ottengono col comando `pyquiz.py -h`:
 
 ```
 pyquiz.py -h
@@ -72,7 +72,7 @@ Utilizzare le opzioni -a, -q, -n, -c, -m, -i, -e.
 
 `-e`: ignorare questa opzione nella maggioranza dei casi
 
-Ad esempio, se voglio generare 60 test a partire dal file quizzone.xlsx, assegnando 1 punto per ogni risposta esatta, 0 per ogni risposta non data e -0,25 per ogni risposta errata, il comando da utilizzare è `pyquiz.py -a c -q quizzone.xlsx -c 1 -m 0 -i -0.25`.
+Ad esempio, se voglio generare 60 test a partire dal file quizzone.xlsx, assegnando 1 punto per ogni risposta esatta, 0 per ogni risposta non data e -0,25 per ogni risposta errata, il comando da utilizzare è `pyquiz.py -a c -q quizzone.xlsx -n 60 -c 1 -m 0 -i -0.25`.
 
 Verrà generato il file .pdf "quizzone.pdf".
 
