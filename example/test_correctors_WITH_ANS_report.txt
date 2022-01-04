@@ -1,0 +1,6 @@
+********************
+****** REPORT ******
+Students analyzed:  31
+Students mark avg:  1.63
+Questions report
+{'8': {'correct': 9, 'missing': 4, 'incorrect': 18}, '1': {'correct': 10, 'missing': 0, 'incorrect': 21}, '12': {'correct': 10, 'missing': 4, 'incorrect': 17}, '5': {'correct': 11, 'missing': 0, 'incorrect': 20}, '7': {'correct': 10, 'missing': 1, 'incorrect': 20}, '9': {'correct': 10, 'missing': 3, 'incorrect': 18}, '6': {'correct': 9, 'missing': 3, 'incorrect': 19}, '11': {'correct': 9, 'missing': 0, 'incorrect': 22}, '10': {'correct': 11, 'missing': 2, 'incorrect': 18}, '2': {'correct': 10, 'missing': 0, 'incorrect': 21}, '3': {'correct': 12, 'missing': 1, 'incorrect': 18}, '4': {'correct': 8, 'missing': 2, 'incorrect': 21}}
